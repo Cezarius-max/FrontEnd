@@ -1,8 +1,27 @@
 H1{
     color:green;
     border:2px dashed red;
-    background-color:sienna
+    background-color:beige;
+}
+h4{
+    border:2px solid pink;
+}
+div{
+    border:2px solid pink;
 }
 h6{
-    color:yellow
+    color:yellow;
+}
+.tendiv
+body{
+    font-family: 'Comforter Brush', cursive;
+}
+.container{
+    border:2px solid black;
+    background-color:cadetblue;
+    display:flex;
+    justify-content: space-around;
+}
+.container_div{
+    border:2ps dashed red;
 }
