@@ -8,7 +8,7 @@
     padding: 69px;
     background-color:rgb(255, 248, 223);
     display:flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .subtitle{
     border: 3px solid rgb(29, 170, 47);
