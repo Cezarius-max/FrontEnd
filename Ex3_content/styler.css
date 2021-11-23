@@ -29,6 +29,7 @@
 }
 .gif{
     border:2px dashed orange;
+    margin: 3px;
     align-items: center;
     /* margin: 2px; */
 }
@@ -50,6 +51,12 @@
 .desc{
     flex: 2;
 }
+.content{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 50%;
+}
 .footer{
     border: 3px solid rgb(29, 170, 47);
     padding: 21px;
@@ -60,4 +67,5 @@
 }
 .container_div{
     border:2ps dashed red;
+    align-items: center;
 }
