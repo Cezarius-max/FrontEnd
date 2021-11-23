@@ -2,33 +2,52 @@
     padding: 69px;
     background-color:rgb(255, 248, 223);
     display:flex;
+    text-align: center;
     justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
 }
-.header_div{
+/* .header_div{
     padding: 69px;
     background-color:rgb(255, 248, 223);
     display:flex;
-    justify-content: space-evenly;
-}
+    justify-content: space-evenly; // poprzedni tryb, nie wiem czy dobry więc zostawiam
+} */                                                     
 .subtitle{
     border: 3px solid rgb(29, 170, 47);
     padding: 69px;
     background-color:rgb(255, 248, 223);
     display:flex;
     justify-content: center;
+    font-family: 'Oswald', sans-serif;
 }
 .subtitle_div{
     padding: 69px;
     background-color:rgb(255, 248, 223);
     display:flex;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+.gif{
+    border:2px dashed orange;
+    /* margin: 2px; */
+}
+.gif_img{
+    max-width: 100%;
+    max-height: 100%;
 }
 .container{
     border: 3px solid rgb(255, 248, 223);
     padding: 69px;
     background-color:rgb(29, 170, 47);
     display:flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    font-family: 'Oswald', sans-serif;
+}
+.preview{
+    flex:6;
+}
+.desc{
+    flex: 2;
 }
 .footer{
     border: 3px solid rgb(29, 170, 47);
@@ -36,6 +55,7 @@
     background-color:rgb(255, 248, 223);
     display:flex;
     justify-content: flex-end;
+    font-family: 'Oswald', sans-serif;
 }
 .container_div{
     border:2ps dashed red;
