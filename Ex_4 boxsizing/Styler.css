@@ -18,3 +18,22 @@
     width: 50vw;
     height: 50vw;
 }
+
+/* CSS Sprites */
+.sprite{
+    border:2px solid black;
+    width: 90px;
+    height: 90px;
+    background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw1/sprites.jpg?raw=true);
+    box-sizing: unset;
+}
+
+.sprite:hover{
+    border: 2px dashed green;
+    background-position:0 -90px;
+}
+
+.sprite:active{
+    border: solid blue;
+    background-position:0 -180px;
+}

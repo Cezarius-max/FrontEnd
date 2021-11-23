@@ -1,0 +1,14 @@
+.chart{
+    border:2px dashed red;
+    display:flex;
+    justify-content: space-around;
+}
+.chart .div{
+    border:2px dashed #000;
+    min-width: 10%
+}
+.chart div:nth-child(1){height: 2in;}
+.chart div:nth-child(2){height: 2cm;}
+.chart div:nth-child(3){height: 2mm;}
+.chart div:nth-child(4){height: 2pc;}
+.chart div:nth-child(5){height: 2pt;}
