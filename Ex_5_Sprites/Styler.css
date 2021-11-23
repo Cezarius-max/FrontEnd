@@ -1,30 +1,55 @@
-.chartx,.chartY{
+.sprite{
+    background-image: url();
+    width: 500px;
+    height: 200px;
+}
+.sprite:hover{
+    background-position:0 -200;
+}
+.header{
+    border: 3px solid black;
+    padding: 36px;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+.header div{
+    border: 1px solid black;
+    padding: 3px;
+    display:flex;
+    justify-content: space-around;
+}
+.chartX,.chartY{
     border:2px dashed red;
     display:flex;
     flex-direction: column;
     justify-content: space-around;
 }
-.chartx .div{
-    border:2px dashed #000;
+.chartX div{
+    border:2px dashed rgb(0, 0, 0);
     min-width: 10%;
 }
-.chartx div:nth-child(1){height: 2in;}
-.chartx div:nth-child(2){height: 2cm;}
-.chartx div:nth-child(3){height: 2mm;}
-.chartx div:nth-child(4){height: 2pc;}
-.chartx div:nth-child(5){height: 2pt;}
+.chartX div:nth-child(1){height: 2in;}
+.chartX div:nth-child(2){height: 2cm;}
+.chartX div:nth-child(3){height: 2mm;}
+.chartX div:nth-child(4){height: 2pc;}
+.chartX div:nth-child(5){height: 2pt;}
 
 .chartY{
+    border:1px dashed black;
     flex-direction: column;
     min-height:70vh;
 }
-.chartY .div{
-    border:2px dashed #000;
+.chartY div{
+    border:2px dashed rgb(0, 0, 0);
     min-width: 10vh;
 }
-.charty div:nth-child(1){height: 10%;}
-.charty div:nth-child(2){height: 10em;}
-.charty div:nth-child(3){height: 10vw;}
-.charty div:nth-child(4){height: 1vh;}
-.charty div:nth-child(5){height: 1pt;}
+.chartY div:nth-child(1){height: 10%;}
+.chartY div:nth-child(2){height: 10em;}
+.chartY div:nth-child(3){height: 10vw;}
+.chartY div:nth-child(4){height: 1vh;}
+.chartY div:nth-child(5){height: 1pt;}
 
+*{
+    font-size: 18px;
+}
