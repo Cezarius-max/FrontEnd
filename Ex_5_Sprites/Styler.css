@@ -1,14 +1,30 @@
-.chart{
+.chartx,.chartY{
     border:2px dashed red;
     display:flex;
+    flex-direction: column;
     justify-content: space-around;
 }
-.chart .div{
+.chartx .div{
     border:2px dashed #000;
-    min-width: 10%
+    min-width: 10%;
 }
-.chart div:nth-child(1){height: 2in;}
-.chart div:nth-child(2){height: 2cm;}
-.chart div:nth-child(3){height: 2mm;}
-.chart div:nth-child(4){height: 2pc;}
-.chart div:nth-child(5){height: 2pt;}
+.chartx div:nth-child(1){height: 2in;}
+.chartx div:nth-child(2){height: 2cm;}
+.chartx div:nth-child(3){height: 2mm;}
+.chartx div:nth-child(4){height: 2pc;}
+.chartx div:nth-child(5){height: 2pt;}
+
+.chartY{
+    flex-direction: column;
+    min-height:70vh;
+}
+.chartY .div{
+    border:2px dashed #000;
+    min-width: 10vh;
+}
+.charty div:nth-child(1){height: 10%;}
+.charty div:nth-child(2){height: 10em;}
+.charty div:nth-child(3){height: 10vw;}
+.charty div:nth-child(4){height: 1vh;}
+.charty div:nth-child(5){height: 1pt;}
+
