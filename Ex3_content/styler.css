@@ -29,6 +29,7 @@
 }
 .gif{
     border:2px dashed orange;
+    align-items: center;
     /* margin: 2px; */
 }
 .gif_img{
