@@ -6,12 +6,16 @@
 .sprite:hover{
     background-position:0 -200;
 }
+.sprite:active{
+    background-position:0 -400;
+}
+
 .header{
     border: 3px solid black;
     padding: 36px;
     display:flex;
-    text-align: center;
     justify-content: center;
+    text-align: center;
 }
 .header div{
     border: 1px solid black;
@@ -22,11 +26,11 @@
 .chartX,.chartY{
     border:2px dashed red;
     display:flex;
-    flex-direction: column;
     justify-content: space-around;
 }
 .chartX div{
     border:2px dashed rgb(0, 0, 0);
+    flex-direction: column;
     min-width: 10%;
 }
 .chartX div:nth-child(1){height: 2in;}
@@ -44,11 +48,11 @@
     border:2px dashed rgb(0, 0, 0);
     min-width: 10vh;
 }
-.chartY div:nth-child(1){height: 10%;}
-.chartY div:nth-child(2){height: 10em;}
-.chartY div:nth-child(3){height: 10vw;}
-.chartY div:nth-child(4){height: 1vh;}
-.chartY div:nth-child(5){height: 1pt;}
+.chartY div:nth-child(1){width: 10%;}
+.chartY div:nth-child(2){width: 10em;}
+.chartY div:nth-child(3){width: 10vw;}
+.chartY div:nth-child(4){width: 1vh;}
+.chartY div:nth-child(5){width: 1pt;}
 
 *{
     font-size: 18px;
