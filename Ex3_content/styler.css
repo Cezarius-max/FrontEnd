@@ -28,7 +28,7 @@
     justify-content: space-evenly;
 }
 .gif{
-    border:2px dashed orange;
+    /* border:2px dashed orange; */
     margin: 3px;
     align-items: center;
     /* margin: 2px; */
