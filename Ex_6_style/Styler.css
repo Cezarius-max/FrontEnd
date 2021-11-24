@@ -1,15 +1,23 @@
 *{box-sizing: border-box;}
-
+body{
+    margin: 0px;
+}
 .container{
     border: 2px dashed;
     width: 40vw;
     height: 40vw;
-    position:relative
+    position:relative;
 }
-
+.container div{
+    border: 2px dashed blue;
+    height:100%;
+    width: 100%;
+    position: absolute;
+}
 .img{
     background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw2/slon.jpg?raw=true);
     background-size: cover;
+    background-image: url();
 }
 
 .label{
@@ -23,9 +31,25 @@
 /* .label:active{
     transition: 1s ;
 } */
-.containder div{
-    border: 2px dashed blue;
-    height:100%;
-    width: 100%;
-    position: absolute;
+
+.wrapper{
+    border: 2px dashed green;
+    min-height:100vw;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.wrapper div{
+    border:2px dashed red;
+    width: 35vw;
+    height: 35vw;
+}
+@media(max-width:720px){
+    .wrapper div{
+        width: 60vw;
+        height: 60vw;
+        margin-top:10vw;
+        margin-bottom:10vw;
+    }
 }
