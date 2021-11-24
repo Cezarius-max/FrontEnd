@@ -1,9 +1,9 @@
 *{box-sizing: border-box;}
 body{
-    margin: 0px;
+    margin: 0;
 }
 .container{
-    border: 2px dashed;
+    border: 2px dashed red;
     width: 40vw;
     height: 40vw;
     position:relative;
@@ -14,21 +14,34 @@ body{
     width: 100%;
     position: absolute;
 }
-.img{
+.img1{
     background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw2/slon.jpg?raw=true);
     background-size: cover;
 }
-
+.img2{
+    background-image:url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw2/lew.jpg?raw=true);
+    background-size: cover;
+}
+.img3{
+    background-image:url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw2/zebra.jpg?raw=true);
+    background-size: cover;
+}
+.img4{
+    background-image:url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw2/nosorozec.jpg?raw=true);
+    background-size: cover;
+}
 .label{
     background-color: rgb(255, 255, 255);
     display:flex;
     justify-content: center;
     align-items: center;
-    transition: 1s;
-}
+    transition:linear  1s;
+    transition-delay: 0s;
+    position:absolute;
 
 .label:active{
-    transition: 1s ;
+    transition: 0s;
+    opacity:0;
 }
 
 .wrapper{
