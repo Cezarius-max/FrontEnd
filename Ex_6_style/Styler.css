@@ -18,7 +18,7 @@ body{
     position: absolute;
 }
 .img1{
-    background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw2/slon.jpg?raw=true);
+    background-image:url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw2/slon.jpg?raw=true);
     background-size: cover;
 }
 .img2{
@@ -38,7 +38,7 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
-    transition:linear  1s;
+    transition:linear  1;
     transition-delay: 0s;
     position:absolute;
 
@@ -55,9 +55,10 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    position:sticky;
 }
 .wrapper div{
-    border:2px dashed red;
+    background-color: greenyellow;
     width: 39vw;
     height: 39vw;
 }
@@ -70,7 +71,7 @@ body{
     }
 }
 .sticky{
-    border: 5px dotted black;
+    background-color:green;
     position:sticky;
     top: 0px;
     padding: 9px;
@@ -79,6 +80,7 @@ body{
 .STATIC{
     background-color: rgb(44, 44, 44);
     padding: 15px;
+    bottom: 0px;
 }
 .STATIC a{
     
