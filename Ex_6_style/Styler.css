@@ -1,4 +1,7 @@
-*{box-sizing: border-box;}
+*{
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
 body{
     margin: 0;
 }
@@ -69,4 +72,8 @@ body{
 .sticky{
     border: 5px dotted black;
     position:sticky
+}
+.STATIC{
+    background-color: black;
+    font-display: swap;
 }
