@@ -1,5 +1,7 @@
+:root{font-size: 15px;}
+
 .sprite{
-    background-image: url();
+    background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw1/logo_sprites.jpg?raw=true);
     width: 500px;
     height: 200px;
 }
@@ -12,16 +14,27 @@
 
 .header{
     border: 3px solid black;
-    padding: 36px;
+    padding: 36px 0;
     display:flex;
-    justify-content: center;
-    text-align: center;
+    justify-content: flex-end;
+    /* text-align: center; */
 }
 .header div{
     border: 1px solid black;
     padding: 3px;
-    display:flex;
-    justify-content: space-around;
+    /* display:flex;
+    justify-content: space-around; */
+}
+.container{
+    border: 1px solid black;
+}
+.logo2{
+    border: 3px dashed red;
+    flex: 1;
+    text-align:center;
+}
+.subtitle{
+    border: 3px dotted blue;
 }
 .chartX,.chartY{
     border:2px dashed red;
@@ -31,8 +44,10 @@
 .chartX div{
     border:2px dashed rgb(0, 0, 0);
     flex-direction: column;
+    justify-content: space-around;
     min-width: 10%;
 }
+/* Wysokość słupków X */
 .chartX div:nth-child(1){height: 2in;}
 .chartX div:nth-child(2){height: 2cm;}
 .chartX div:nth-child(3){height: 2mm;}
@@ -46,8 +61,11 @@
 }
 .chartY div{
     border:2px dashed rgb(0, 0, 0);
+    height: 96px;
+    width:10%;
     min-width: 10vh;
 }
+/* Wysokość słupków Y */
 .chartY div:nth-child(1){width: 10%;}
 .chartY div:nth-child(2){width: 10em;}
 .chartY div:nth-child(3){width: 10vw;}
