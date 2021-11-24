@@ -58,8 +58,8 @@ body{
 }
 .wrapper div{
     border:2px dashed red;
-    width: 35vw;
-    height: 35vw;
+    width: 39vw;
+    height: 39vw;
 }
 @media(max-width:720px){
     .wrapper div{
@@ -71,9 +71,15 @@ body{
 }
 .sticky{
     border: 5px dotted black;
-    position:sticky
+    position:sticky;
+    top: 0px;
+    padding: 9px;
+    z-index:1;
 }
 .STATIC{
-    background-color: black;
-    font-display: swap;
+    background-color: rgb(44, 44, 44);
+    padding: 15px;
+}
+.STATIC a{
+    
 }
