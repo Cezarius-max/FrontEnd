@@ -30,12 +30,13 @@ body{
     display: flex;
     justify-content: space-evenly;
     text-align:center;
-    text-decoration:none;
-    color:inherit;
+
 }
 .nav a{
     border: 1px solid black;
     flex: 1;
+    text-decoration:none;
+    color:inherit;
 }
 .absolute{
     background-color: wheat;
