@@ -9,14 +9,14 @@ body{
     height: 200px;
 }
 .sprite:hover{
-    background-position:0 -200;
+    background-position:0 -200px;
 }
 .sprite:active{
-    background-position:0 -400;
+    background-position:0 -400px;
 }
 
 .header{
-    background-color: rgb(186, 228, 241);
+    background-color: rgb(179, 231, 245);
     padding: 36px 0;
     display:flex;
     justify-content: flex-end;
@@ -112,7 +112,8 @@ body{
 }
 
 .container{
-    
+    text-decoration:none;
+    color:inherit;
 }
 
 .absolute h2, .relative h2, .fonts h2{
