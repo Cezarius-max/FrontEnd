@@ -33,6 +33,7 @@ body{
     background-image:url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw2/nosorozec.jpg?raw=true);
     background-size: cover;
 }
+
 .label{
     background-color: rgb(255, 255, 255);
     display:flex;
