@@ -25,7 +25,6 @@ body{
 
 .container{
     background-color: wheat;
-    
 }
 .nav{
     display: flex;
@@ -41,10 +40,14 @@ body{
 .absolute{
     background-color: wheat;
     border-top: 0px;
+    padding-bottom: 1%;
+    padding-left: 1%;
 }
 .relative{
     background-color: steelblue;
     border-top: 0px;
+    padding-bottom: 1%;
+    padding-left: 1%;
 }
 .fonts{
     background-color: rgb(46, 87, 121);
@@ -53,14 +56,14 @@ body{
 .chartX{
     background-color: rgb(248, 242, 231);
     display:flex;
-    margin: 1% 3% 0% 3%;
+    margin: 1% 15% 0% 15%;
     padding-bottom: 2%;
     justify-content: space-around;
 }
 .chartY{
     background-color: rgb(189, 225, 255);
     display:flex;
-    margin: 1% 3% 0% 3%;
+    margin: 1% 15% 0% 15%;
     padding-bottom: 2%;
     justify-content: space-around;
 }
@@ -82,7 +85,6 @@ body{
 .chartX div:nth-child(5){background-color:rgb(132, 0, 255);}
 
 .chartY{
-    
     flex-direction: column;
     min-height:70vh;
 }
@@ -106,12 +108,13 @@ body{
 
 *{
     font-size: 18px;
+    font-family: 'Oswald', sans-serif;
 }
 .container{
     
 }
 .absolute h2, .relative h2, .fonts h2{
-    padding: 20px;
+    padding: 3vw 3vw 0vw 3vw;
     margin: 0;
 }
 .em{
