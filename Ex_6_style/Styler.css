@@ -1,0 +1,31 @@
+*{box-sizing: border-box;}
+
+.container{
+    border: 2px dashed;
+    width: 40vw;
+    height: 40vw;
+    position:relative
+}
+
+.img{
+    background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw2/slon.jpg?raw=true);
+    background-size: cover;
+}
+
+.label{
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+/* .label:active{
+    transition: 1s ;
+} */
+.containder div{
+    border: 2px dashed blue;
+    height:100%;
+    width: 100%;
+    position: absolute;
+}
