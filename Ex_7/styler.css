@@ -1,25 +1,30 @@
 body{
-    background-color: aquamarine;
+    background-color: #a7031ef3;
 }
 a{
+    background-color: #fff;
     text-decoration: none;
     color: black;
     font-size: 5em;
-    border: 2px solid black;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     min-height: 25vh;
+    font-family: 'Bebas Neue', cursive;
 }
 a i{
     font-size:3em;
 }
+b{
+    
+}
 a b{
-    color:red;
+    
+    color:rgb(47, 47, 47);
 }
 .wrapper{
+    
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -28,6 +33,7 @@ a b{
         "b4 b5 b1"
     ;
     gap: 10px;
+    
 }
 .wrapper a:nth-child(1){grid-area: b3;}
 .wrapper a:nth-child(2){grid-area: b1;}
@@ -51,4 +57,23 @@ a b{
 
     }
 
+}
+.footer{
+    background-color:rgb(246, 246, 246);
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index:1;
+    padding: 3vh;
+    font-size: 36px;
+    display: flex;
+    justify-content: right;
+    
+}
+.footer div{
+    padding-right: 6vh;
+    
+}
+*{
+    font-family: 'Bebas Neue', cursive;
 }
