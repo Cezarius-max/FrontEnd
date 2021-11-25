@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-size: 1.5vw;
     font-family: 'Bebas Neue', cursive;
 }
 body{
@@ -45,12 +46,13 @@ body{
 
 }
 .label:active{
-    transition: 0s;
+    transition: 0.5s;
     opacity: 0;
+    transform: rotateX(-89.99deg);
+    transform-origin: top;
 }
 
 .wrapper{
-    border: 2px dashed green;
     min-height:100vw;
     display:flex;
     flex-wrap: wrap;
@@ -63,6 +65,22 @@ body{
     width: 39vw;
     height: 39vw;
 }
+.img1:active{
+    transition: 0.5s;
+    transform: scale(1.2, 1.2);
+}
+.img2:active{
+    transition: 0.5s;
+    transform: scale(1.2, 1.2);
+}
+.img3:active{
+    transition: 0.5s;
+    transform: scale(1.2, 1.2);
+}
+.img4:active{
+    transition: 0.5s;
+    transform: scale(1.2, 1.2);
+}
 @media(max-width:720px){
     .wrapper div{
         width: 60vw;
@@ -73,16 +91,24 @@ body{
 }
 .sticky{
     background-color:green;
-    position:sticky;
-    top: 0px;
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
     padding: 9px;
     z-index:1;
 }
-.STATIC{
+.sticky a{
+    padding: 3vh;
+}
+.cookies{
     background-color: rgb(44, 44, 44);
     padding: 15px;
     bottom: 0px;
+    text-align: center;
 }
-.STATIC a{
-    
+.animals{
+    background-color: greenyellow;
+    padding: 15px;
+    bottom: 0px;
+    text-align: center;
 }
