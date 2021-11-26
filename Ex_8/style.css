@@ -47,8 +47,11 @@ body nav {
 }
 
 body nav a {
+  padding: 6px;
   text-align: center;
-  color: #580114;
+  font-size: 2vh;
+  font-weight: bolder;
+  color: white;
 }
 
 body .body {
@@ -76,7 +79,7 @@ body .body main img {
 }
 
 body .body main h1 {
-  text-transform: uppercase;
+  font-weight: bold;
 }
 
 body .body aside {

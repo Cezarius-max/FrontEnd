@@ -1,4 +1,4 @@
-$fontcolor:rgb(88, 1, 20);
+$fontcolor:rgb(255, 255, 255);
 $backgrouncolor:rgb(20, 0, 3);
 
 *{
@@ -35,7 +35,10 @@ body{
         display: flex;
         justify-content: space-evenly;
         a{
+            padding: 6px;
             text-align: center;
+            font-size: 2vh;
+            font-weight:bolder;
             color: $fontcolor;
         }
     }
@@ -55,7 +58,7 @@ body{
                 max-width: 100%;
             }
             h1{
-                text-transform: uppercase;
+                font-weight:bold;
             }
         }
         aside{
@@ -78,6 +81,9 @@ body{
                 padding: 6px;
             }
         }
+    }
+    .CommentSection{
+
     }
     footer{
         position: fixed;
