@@ -1,0 +1,47 @@
+$fontcolor:rgb(191, 212, 245);
+$backgroundcolor:rgb(167, 183, 119);
+
+body{ 
+    /* Patterny można brać ze strony toptal.com */
+    background-image: url(img/);
+    header{
+        background-color: $backgroundcolor;
+        border:2px dashed red;
+        h1{
+            text-align: center;
+            color: $fontcolor;
+            @include frame(30px)
+        }
+    }
+    nav{
+        display: flex;
+        justify-content: space-evenly;
+        border-color: $backgroundcolor;
+        a{
+
+        }
+    }
+    .container{
+        main{
+            color:green;
+        }
+        aside{
+            color:orange;
+        }
+    }
+    footer{
+        @extend %simpleFrame;
+        color:gold;
+    }
+    .for{
+        border: 2ps dahsed red;
+        display: flex;
+        padding: wrap;
+        
+        @for $i from 1 through 20{
+            div:nth-child(#{$i}){
+                background-color:darken(#fff,$i * 5%);
+            }
+        }
+    }
+}
