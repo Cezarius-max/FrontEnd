@@ -8,16 +8,18 @@ $backgrouncolor:rgb(20, 0, 3);
 }
 body{
     margin: 3vw;
+    
     /* Patterny można brać ze strony https://www.toptal.com/designers/subtlepatterns/category/patterns */
 
     background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/hotel-wallpaper.png) ;
     // background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/cork-board.png) ;
     background-color:rgb(88, 1, 20);
     header{
-        border:2px dashed red;
+        border:3px solid rgb(88, 1, 20);
+        border-radius: 9px;
         display: flex;
         justify-content: center;
-        
+        background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/cork-board.png) ;
         img{
             padding: 1vw 1vh;
         }
@@ -48,6 +50,12 @@ body{
             flex: 1;
             border: dotted rgb(167, 183, 119);
             color:orange;
+            div{
+                border-radius: 3px;
+                background-color: rgb(20, 0, 3);
+                margin: 1vh;
+                padding: 9px;
+            }
         }
     }
     footer{

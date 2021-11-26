@@ -14,13 +14,15 @@ body {
 }
 
 body header {
-  border: 2px dashed red;
+  border: 3px solid #580114;
+  border-radius: 9px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/cork-board.png);
 }
 
 body header img {
@@ -70,6 +72,13 @@ body .body aside {
           flex: 1;
   border: dotted #a7b777;
   color: orange;
+}
+
+body .body aside div {
+  border-radius: 3px;
+  background-color: #140003;
+  margin: 1vh;
+  padding: 9px;
 }
 
 body footer {
