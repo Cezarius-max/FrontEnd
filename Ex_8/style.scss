@@ -1,7 +1,10 @@
 $fontcolor:rgb(191, 212, 245);
 $backgrouncolor:rgb(167, 183, 119);
 
-
+*{
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
 body{ 
     /* Patterny można brać ze strony toptal.com */
     background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja3/cw2/logo.png?raw=true);
@@ -32,5 +35,9 @@ body{
         border: 2ps dahsed red;
         display: flex;
         padding: wrap;
+        
+        &:active{
+            background-color: red;
+        }
     }
 }

@@ -1,4 +1,10 @@
 @charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Bebas Neue', cursive;
+}
+
 body {
   /* Patterny można brać ze strony toptal.com */
   background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja3/cw2/logo.png?raw=true);
@@ -41,5 +47,9 @@ body .for {
   display: -ms-flexbox;
   display: flex;
   padding: wrap;
+}
+
+body .for:active {
+  background-color: red;
 }
 /*# sourceMappingURL=style.css.map */
