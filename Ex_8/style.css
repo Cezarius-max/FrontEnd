@@ -2,7 +2,7 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Roboto', sans-serif;
   text-decoration: none;
 }
 
@@ -15,6 +15,7 @@ body {
 
 body header {
   border: 3px solid #580114;
+  background-color: #001401;
   border-radius: 9px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -22,18 +23,21 @@ body header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/cork-board.png);
 }
 
 body header img {
   padding: 1vw 1vh;
+  -webkit-filter: hue-rotate(90deg);
+          filter: hue-rotate(90deg);
 }
 
 body nav {
   position: -webkit-sticky;
   position: sticky;
-  top: 3vh;
-  border: 3px dotted #580114;
+  top: 1vh;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.746);
+  margin: 1vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -48,7 +52,9 @@ body nav a {
 }
 
 body .body {
-  border: dotted #a7b777;
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/cork-board.png);
+  border: solid white;
+  border-radius: 6px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -58,20 +64,28 @@ body .body main {
   -webkit-box-flex: 3;
       -ms-flex: 3;
           flex: 3;
-  border: dotted #a7b777;
+  margin: 3vh;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.267);
   color: black;
+  padding: 3vh;
 }
 
 body .body main img {
   max-width: 100%;
 }
 
+body .body main h1 {
+  text-transform: uppercase;
+}
+
 body .body aside {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  border: dotted #a7b777;
-  color: orange;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.267);
+  color: white;
 }
 
 body .body aside div {
@@ -79,6 +93,13 @@ body .body aside div {
   background-color: #140003;
   margin: 1vh;
   padding: 9px;
+}
+
+body .body aside h3 {
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.424);
+  margin: 9px 9px 9px 9px;
+  padding: 6px;
 }
 
 body footer {
