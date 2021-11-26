@@ -3,42 +3,89 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: 'Bebas Neue', cursive;
+  text-decoration: none;
 }
 
 body {
-  /* Patterny można brać ze strony toptal.com */
-  background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja3/cw2/logo.png?raw=true);
+  margin: 3vw;
+  /* Patterny można brać ze strony https://www.toptal.com/designers/subtlepatterns/category/patterns */
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/hotel-wallpaper.png);
+  background-color: #580114;
 }
 
 body header {
   border: 2px dashed red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-body header h1 {
-  text-align: center;
-  color: #bfd4f5;
+body header img {
+  padding: 1vw 1vh;
 }
 
 body nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 3vh;
+  border: 3px dotted #580114;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  border-color: aqua;
 }
 
-body .container main {
-  color: green;
+body nav a {
+  text-align: center;
+  color: #580114;
 }
 
-body .container aside {
+body .body {
+  border: dotted #a7b777;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .body main {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  border: dotted #a7b777;
+  color: black;
+}
+
+body .body main img {
+  max-width: 100%;
+}
+
+body .body aside {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border: dotted #a7b777;
   color: orange;
 }
 
 body footer {
-  color: gold;
+  position: fixed;
+  background-color: #580114;
+  bottom: 0px;
+  width: 97vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+}
+
+body footer div {
+  padding: 0.3vh;
+  padding-left: 0.5vw;
 }
 
 body .for {

@@ -1,35 +1,66 @@
-$fontcolor:rgb(191, 212, 245);
-$backgrouncolor:rgb(167, 183, 119);
+$fontcolor:rgb(88, 1, 20);
+$backgrouncolor:rgb(20, 0, 3);
 
 *{
     box-sizing: border-box;
     font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
 }
-body{ 
-    /* Patterny można brać ze strony toptal.com */
-    background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja3/cw2/logo.png?raw=true);
+body{
+    margin: 3vw;
+    /* Patterny można brać ze strony https://www.toptal.com/designers/subtlepatterns/category/patterns */
+
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/hotel-wallpaper.png) ;
+    // background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/cork-board.png) ;
+    background-color:rgb(88, 1, 20);
     header{
         border:2px dashed red;
-        h1{
+        display: flex;
+        justify-content: center;
+        
+        img{
+            padding: 1vw 1vh;
+        }
+    }
+    nav{
+        position: sticky;
+        top: 3vh;
+        border: 3px dotted rgb(88, 1, 20);
+        display: flex;
+        justify-content: space-evenly;
+        a{
             text-align: center;
             color: $fontcolor;
         }
     }
-    nav{
+    .body{
+        border: dotted rgb(167, 183, 119);
         display: flex;
-        justify-content: space-evenly;
-        border-color: aqua;
-    }
-    .container{
         main{
-            color:green;
+            flex: 3;
+            border: dotted rgb(167, 183, 119);
+            color:black;
+            img{
+                max-width: 100%;
+            }
         }
         aside{
+            flex: 1;
+            border: dotted rgb(167, 183, 119);
             color:orange;
         }
     }
     footer{
-        color:gold;
+        position: fixed;
+        background-color: rgb(88, 1, 20);
+        bottom: 0px;
+        width: 97vw;
+        display: flex;
+        color:white;
+        div{
+            padding: 0.3vh;
+            padding-left: 0.5vw;
+        }
     }
     .for{
         border: 2ps dahsed red;
