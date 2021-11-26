@@ -1,25 +1,21 @@
 $fontcolor:rgb(191, 212, 245);
-$backgroundcolor:rgb(167, 183, 119);
+$backgrouncolor:rgb(167, 183, 119);
+
 
 body{ 
     /* Patterny można brać ze strony toptal.com */
-    background-image: url(img/);
+    background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja3/cw2/logo.png?raw=true);
     header{
-        background-color: $backgroundcolor;
         border:2px dashed red;
         h1{
             text-align: center;
             color: $fontcolor;
-            @include frame(30px)
         }
     }
     nav{
         display: flex;
         justify-content: space-evenly;
-        border-color: $backgroundcolor;
-        a{
-
-        }
+        border-color: aqua;
     }
     .container{
         main{
@@ -30,18 +26,11 @@ body{
         }
     }
     footer{
-        @extend %simpleFrame;
         color:gold;
     }
     .for{
         border: 2ps dahsed red;
         display: flex;
         padding: wrap;
-        
-        @for $i from 1 through 20{
-            div:nth-child(#{$i}){
-                background-color:darken(#fff,$i * 5%);
-            }
-        }
     }
 }

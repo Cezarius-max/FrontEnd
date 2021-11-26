@@ -1,0 +1,45 @@
+@charset "UTF-8";
+body {
+  /* Patterny można brać ze strony toptal.com */
+  background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja3/cw2/logo.png?raw=true);
+}
+
+body header {
+  border: 2px dashed red;
+}
+
+body header h1 {
+  text-align: center;
+  color: #bfd4f5;
+}
+
+body nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-color: aqua;
+}
+
+body .container main {
+  color: green;
+}
+
+body .container aside {
+  color: orange;
+}
+
+body footer {
+  color: gold;
+}
+
+body .for {
+  border: 2ps dahsed red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: wrap;
+}
+/*# sourceMappingURL=style.css.map */
