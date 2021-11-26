@@ -59,6 +59,7 @@ body nav a {
 body .body {
   background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/cork-board.png);
   border: solid white;
+  border-bottom: 3px;
   border-radius: 9px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -113,8 +114,20 @@ body .body aside h3 {
   padding: 6px;
 }
 
+body .CommentSection {
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/cork-board.png);
+  border: 3px solid whitesmoke;
+  border-radius: 9px;
+  border-top: none;
+}
+
 body .CommentSection .comment {
   border: 2px solid black;
+}
+
+body .CommentSection h3 {
+  margin-top: 3px;
+  padding: 1vh;
 }
 
 body footer {
