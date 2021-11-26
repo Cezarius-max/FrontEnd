@@ -1,4 +1,36 @@
+$fontcolor:rgd(191, 212, 245);
+$backgroundcolor:rgb()
+
 body{ 
     /* Patterny można brać ze strony toptal.com */
     background-image: url(img/);
+    header{
+        background-color: $backgroundcolor;
+        borded:2px dashed red;
+        h1{
+            text-align: center;
+            color: $fontcolor;
+            @include frame(30px)
+        }
+    }
+    nav{
+        display: flex;
+        justify-content: space-evenly;
+        border-color: $backgroundcolor;
+        a{
+
+        }
+    }
+    .container{
+        main{
+            color:green;
+        }
+        aside{
+            color:orange;
+        }
+    }
+    footer{
+        @extend %simpleFrame;
+        color:gold;
+    }
 }
