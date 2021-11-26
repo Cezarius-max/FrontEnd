@@ -14,7 +14,7 @@ body {
 }
 
 body header {
-  border: 3px solid #580114;
+  border: 9px solid #2f1701;
   background-color: #001401;
   border-radius: 9px;
   display: -webkit-box;
@@ -26,7 +26,8 @@ body header {
 }
 
 body header img {
-  padding: 1vw 1vh;
+  max-width: 33%;
+  padding: 3vw 3vh;
   -webkit-filter: hue-rotate(90deg);
           filter: hue-rotate(90deg);
 }
@@ -35,9 +36,10 @@ body nav {
   position: -webkit-sticky;
   position: sticky;
   top: 1vh;
+  padding: 1.5vh;
   border-radius: 3px;
   background-color: rgba(0, 0, 0, 0.746);
-  margin: 1vh;
+  margin: 1.5vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -109,6 +111,10 @@ body .body aside h3 {
   background-color: rgba(0, 0, 0, 0.424);
   margin: 9px 9px 9px 9px;
   padding: 6px;
+}
+
+body .CommentSection .comment {
+  border: 2px solid black;
 }
 
 body footer {
