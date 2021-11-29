@@ -4,16 +4,16 @@ const imgsInfo = [
       // tytuł pierwszego zdjęcia
     title : "Widok 1",
       // źródło pierszego zdjęcia
-    text : "Obrazek 1"
+    Text : "https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcjajs/img/1.jpg?raw=true"
     },
     // drugi obiekt
     {
     title : "Widok 2",
-    text : "Obrazek 2"
+    src : "https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcjajs/img/2.jpg?raw=true"
     },
     {
     title : "Widok 3",
-    text : "Obrazek 3"
+    src : "https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcjajs/img/3.jpg?raw=true"
     },
 ]
 
