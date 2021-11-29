@@ -1,27 +1,65 @@
-const img = [
-    { id:1, "src" : name : "1jpg" },
-    { id:2, src : "2.jpg"},
-    { id:3, src : "3.jpg"}
-];
-
 const imgsInfo = [
+    // pierwszy obiekt (info o zdjęciu)
     {
-        title :  "widok1",
-        src : "https",
+      // tytuł pierwszego zdjęcia
+    title : "Widok 1",
+      // źródło pierszego zdjęcia
+    text : "Obrazek 1"
+    },
+    // drugi obiekt
+    {
+    title : "Widok 2",
+    text : "Obrazek 2"
     },
     {
-        title : "widok2",
-        src : "",
+    title : "Widok 3",
+    text : "Obrazek 3"
     },
-    {
-        title : "widok3",
-        src : "",
-    }
-];
+]
+
+// const imgsInfo = [
+//     {
+//         title :  "widok1",
+//         src : "https",
+//     },
+//     {
+//         title : "widok2",
+//         src : "",
+//     },
+//     {
+//         title : "widok3",
+//         src : "",
+//     }
+// ];
 
 function changeImg(nr){
     const img = document.querySelector('img');
     img.src = imgsInfo[0].src;
     img.alt = imgsInfo[nr].title;
 }
-changeImg(1);
+
+let currentSlide = 0;
+changeImg(currentSlide);
+
+changeImg(1),
+
+function changeCurrentSlide(direction){
+    if(direction =="left"){
+        currentSlide--;
+        if(currentSlide == -1){
+            currentSlide = 2;
+        }
+    }else{
+        currentSlide++;
+        if(currentSlide == 3){
+            currentSlide = 0;
+        }
+    }
+    changeImg(currentSlide);
+}
+
+const left = document.querySelector(".left");
+left.onclick = function(){changeCurrentSlide('left')};
+const right =document.querySelector(".right");
+right.onclick = function(){changeCurrentSlide('right')};
+

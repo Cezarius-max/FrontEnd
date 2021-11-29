@@ -1,14 +1,24 @@
 body{
     background-color:blanchedalmond;
+
     h2{text-align: center;}
+
     main{display: flex;
     justify-content: center;
+
     div{
         border:2px dashed red;
+        flex: 1;
+        display: grid;
+        padding: 5vh;
     }
+
     img{
         max-width: 100%;
         flex: 1;
+    }
+    footer{
+        text-align: right;
     }
 }
 }
